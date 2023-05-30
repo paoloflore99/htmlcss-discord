@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 20px; */
+    line-height: 2rem;
+}
+
+header {
+    background-color: #152aa0;
+    padding-top: 1rem;
+    padding-bottom: 4px;
+    color: rgb(255, 255, 255);
+}
+
+header nav {
+    margin-bottom: 1rem;
+}
+
+header nav .container {
+    display: flex;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.bg-yellow {
+    background-color: #152aa0;
+}
+
+.nav-logo,
+.nav-login {
+    min-width: 150px;
+}
+
+.nav-links,
+.nav-logo,
+.nav-login {
+    padding: 0.5rem;
+}
+
+.nav-logo,
+.nav-login {
+    min-width: 150px;
+}
+
+.nav-links {
+    flex-grow: 1;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links ul a {
+    display: inline-block;
+    padding: 0 0.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-login {
+    text-align: right;
+    color: black;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+
+.sheet {
+    background-image: url("img/jumbo.png");
+
+    background-position: right top;
+    padding: 2rem 0;
+
+}
+
+.sheet .container {
+    max-width: 680px;
+    min-height: 300px;
+
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+
+
+h1 {
+    font-size: 1.8rem;
+
+}
+
+button {
+    font-size: 1.1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.col-large,
+.col-small {
+    min-height: 300px;
+}
+
+.col-large-1 {
+    width: 100%;
+    background-image: url(img/item1.svg);
+    font-size: 20px;
+}
+
+.col-large-2 {
+    width: 60%;
+    background-image: url(img/item2.svg);
+}
+
+.col-large-3 {
+    width: 60%;
+    background-image: url(img/item3.svg);
+}
+
+
+
+.col-small {
+    width: 40%;
+
+}
+
+
+
+footer .col {
+    flex-grow: 1;
+    background-color: #d46b6b;
+    min-height: 300px;
+}
+
+footer .col-large {
+    width: 15%;
+    background-color: #bb0000;
+}
+
+footer hr {
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.secondary-footer {
+    background-color: #7fffd4;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo,
+.footer-btn {
+    padding: 0.5rem;
+    background-color: #FFB6C1;
+}
+
+.sheet-2 {
+    background-image: url(img/item4-big.svg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    line-height: 100px
+}
+
+
+
+h3 {
+    color: #152aa0;
+}
